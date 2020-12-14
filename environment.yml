@@ -1,0 +1,16 @@
+# USAGE: conda env create -f environment.yml
+name: fppmap
+channels:
+- conda-forge
+dependencies:
+- python=3.8
+- pip
+- numpy
+- quaternion
+- matplotlib
+- proj
+- pyproj
+- shapely
+- cartopy
+- pygeos
+- geopandas
